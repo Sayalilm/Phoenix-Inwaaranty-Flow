@@ -9,7 +9,7 @@ on:
     - cron : 00 14 * * * #7 PM IST everyday
 
   jobs: 
-    run_pm_tests:           #Name of job
+     run_pm_tests:           #Name of job
       runs_on: ubuntu-latest  #VM with Ubuntu OS
 
       steps:
